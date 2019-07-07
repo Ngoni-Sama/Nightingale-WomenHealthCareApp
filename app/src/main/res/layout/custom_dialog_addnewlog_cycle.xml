@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <DatePicker
+        android:id="@+id/dialog_datepicker_cycle_frag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        tools:targetApi="lollipop" />
+
+
+    <Button
+        android:id="@+id/dialog_btn_confirm_cycle_addlog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:fontFamily="casual"
+        android:text="Confirm"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

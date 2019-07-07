@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_bottomnav_my_log_frag_preg"
+        android:icon="@drawable/ic_data_usage_black_24dp"
+        android:title="My Log" />
+
+    <item
+        android:id="@+id/item_bottomnav_blog_frag_preg"
+        android:icon="@drawable/ic_forum_accent_24dp"
+        android:title="Blog" />
+
+
+    <item
+        android:id="@+id/item_bottomnav_q_n_a_frag_preg"
+        android:icon="@drawable/ic_chat_colorprimary_24dp"
+        android:title="Ask \nA Question" />
+
+    <item
+        android:id="@+id/item_bottomnav_livechat_frag_preg"
+        android:icon="@drawable/ic_local_hospital_colorprimary_24dp"
+        android:title="Consult\n A Doctor" />
+
+
+</menu>

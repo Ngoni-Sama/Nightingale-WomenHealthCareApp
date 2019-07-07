@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorBackground"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.ashiqur.nightingale.module2.doctor_section.ChooseSectorFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="casual"
+            android:gravity="center_horizontal"
+            android:text="Choose Your Sector"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <CheckBox
+                android:id="@+id/cb_sectors_doc_signup_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="casual"
+                android:theme="@style/SCBSwitch"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/cb_sectors_doc_signup_1"
+                android:layout_width="match_parent"
+                android:theme="@style/SCBSwitch"
+
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="casual"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/cb_sectors_doc_signup_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/SCBSwitch"
+
+                android:layout_marginBottom="30dp"
+                android:fontFamily="casual"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/cb_sectors_doc_signup_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/SCBSwitch"
+
+                android:layout_marginBottom="30dp"
+                android:fontFamily="casual"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_next_doc_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginBottom="20dp"
+                android:background="@color/colorPrimary"
+                android:fontFamily="casual"
+                android:text="Next"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

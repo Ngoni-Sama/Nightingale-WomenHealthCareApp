@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "929493071073",
+    "firebase_url": "https://lady-60192.firebaseio.com",
+    "project_id": "lady-60192",
+    "storage_bucket": "lady-60192.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929493071073:android:9eaacab4a8491c55",
+        "android_client_info": {
+          "package_name": "s.ashiqur.lady"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929493071073-lkk79me6tgtinrutt6nejpgkt4bdefi7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "s.ashiqur.lady",
+            "certificate_hash": "13f08cfa948e6cb4469f88ed75cb631bca63cd1d"
+          }
+        },
+        {
+          "client_id": "929493071073-uhh0jg23kco8rr0jh2t8h3j7crb47mpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDagDGnML3-jMWV3UwXLBtW1kgR8zVsqCA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929493071073-uhh0jg23kco8rr0jh2t8h3j7crb47mpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/item_bottomnav_blog_home_frag_blog"
+        android:icon="@drawable/ic_home_colorprimary_24dp"
+        android:title="Home" />
+    <item
+        android:id="@+id/item_bottomnav_back_frag_blog"
+        android:icon="@drawable/ic_arrow_back_accent_24dp"
+        android:title="Back" />
+
+    <item
+        android:id="@+id/item_bottomnav_refreshblog_frag_blog"
+        android:icon="@drawable/ic_refresh_accent_24dp"
+        android:title="Refresh" />
+
+
+</menu>

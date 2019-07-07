@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="">
+        <menu>
+            <item
+                android:checkable="true"
+                android:id="@+id/navdrawer_myinfo_section"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="My Info" />
+
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navdrawer_premens_section"
+            android:icon="@drawable/ic_sentiment_satisfied_black_24dp"
+            android:title="Pre-Menstruation Section" />
+        <item
+            android:id="@+id/navdrawer_mens_section"
+            android:icon="@drawable/ic_mood_black_24dp"
+            android:title="Menstruation Section"/>
+        <item
+            android:id="@+id/navdrawer_pregnancy_section"
+
+            android:icon="@drawable/ic_sentiment_very_satisfied_black_24dp"
+            android:title="Pregnancy Section" />
+         </group>
+
+
+    <item android:title="">
+        <menu>
+            <item
+                android:title="Live Medic"
+                android:checkable="true"
+                android:id="@+id/navdrawer_live_medic"
+                android:icon="@drawable/ic_local_hospital_colorprimary_24dp"/>
+
+        </menu>
+    </item>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:title="A Doctor?Contact Us!"
+                android:checkable="true"
+                android:id="@+id/navdrawer_ifyouareadoc_contactus_section"
+                android:icon="@drawable/ic_email_colorprimary_24dp"/>
+
+        </menu>
+    </item>
+
+
+
+
+</menu>
