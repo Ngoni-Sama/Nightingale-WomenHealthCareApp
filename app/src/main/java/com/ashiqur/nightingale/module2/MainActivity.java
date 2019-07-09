@@ -31,7 +31,7 @@ import static com.ashiqur.nightingale.ashiqur_util.UiUtil.showToast;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
-    private static final String TAG = "MainActivity";
+    private static final String TAG = "MainActivity_";
     private FileUtil fileUtil;
 
     public User getThisUser() {
