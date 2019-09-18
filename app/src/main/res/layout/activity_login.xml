@@ -24,6 +24,7 @@
             android:layout_centerVertical="true"
             android:foregroundGravity="center"
 
+            android:visibility="invisible"
             app:srcCompat="@mipmap/ic_launcher" />
 
         <LinearLayout
@@ -45,7 +46,8 @@
                 android:layout_height="wrap_content"
 
                 android:hint="Country Code"
-                android:inputType="phone" />
+                android:inputType="phone"
+                tools:text="880" />
 
             <EditText
                 android:id="@+id/et_phone_login"
@@ -57,7 +59,8 @@
                 android:ems="10"
                 android:fontFamily="casual"
                 android:hint="Phone..."
-                android:inputType="phone" />
+                android:inputType="phone"
+                android:text="1687226064" />
 
         </LinearLayout>
 
@@ -71,7 +74,8 @@
             android:ems="10"
             android:fontFamily="casual"
             android:hint="Password..."
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:text="admin" />
 
         <Button
             android:id="@+id/btn_login"

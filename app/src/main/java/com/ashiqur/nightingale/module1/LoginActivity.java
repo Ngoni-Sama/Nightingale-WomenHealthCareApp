@@ -42,6 +42,7 @@ public class LoginActivity extends AppCompatActivity  {
     private String [] passwordRetrieved=new String [1];
     private EditText editTextCountryCode;
     private Button buttonIamADoctor;
+    private boolean isLoginOverride = true;
 
     private void addOnClickListeners()
     {
@@ -235,6 +236,7 @@ public class LoginActivity extends AppCompatActivity  {
         setContentView(R.layout.activity_login);
         initializeXmlVariables();
         initializeJavaVariables();
+        if(isLoginOverride)userLogin("admin","+8801687226064");
         addOnClickListeners();
 
     }
